@@ -1,0 +1,2 @@
+# 忽略大文件以满足25MB限制
+index/ais2api.zip
