@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  file-server:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      # 挂载本地的 index 文件夹到容器中，这样可以持久化存储文件
+      - ./index:/usr/src/app/index
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped

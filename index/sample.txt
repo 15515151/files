@@ -1,0 +1,4 @@
+This is a sample file for download testing.
+You can replace this with any file you want to make available for download.
+
+This server will serve any file placed in the index folder without authentication.
